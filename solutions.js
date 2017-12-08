@@ -40,20 +40,20 @@
 // console.log(sumArray([1, 2, 3, 4, 5, 6]));
 //
 // Prime Numbers
-const checkPrime = (num) => {
-    for(let i = 2, r = Math.sqrt(num); i <= r; i++)
-        if(num % i === 0) console.log(false);
-    console.log(num !== 1);
-}
-
-const printPrimes = (num) => {
-    for (let num = 1; num <= 101; num++)
-      if(checkPrime(num) == true) {
-        console.log(num);
-      }
-}
-
-console.log(checkPrime(11));
-console.log(printPrimes(11));
+// const checkPrime = (num) => {
+//     for(let i = 2, r = Math.sqrt(num); i <= r; i++)
+//         if(num % i === 0) console.log(false);
+//     console.log(num !== 1);
+// }
+//
+// const printPrimes = (num) => {
+//     for (let num = 1; num <= 101; num++)
+//       if(checkPrime(num) == true) {
+//         console.log(num);
+//       }
+// }
+//
+// console.log(checkPrime(11));
+// console.log(printPrimes(11));
 
 //Insert Dash
