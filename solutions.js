@@ -12,8 +12,16 @@
 //   }
 // }
 
-//Digit Sun
+//Digit Sum
+const sumDigits = (num) => {
+    const output = [],
+    sNumber = num.toString();
+    for (let i = 0; i < output.length, sum += output[i++]) {
+      console.log(sum);
+    }
+}
 
+console.log(sumDigits(12345));
 
 //Pythagoras
 
