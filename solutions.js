@@ -12,18 +12,23 @@
 //   }
 // }
 
-//Digit Sum
-const sumDigits = (num) => {
-    const output = [],
-    sNumber = num.toString();
-    for (let i = 0; i < output.length, sum += output[i++]) {
-      console.log(sum);
-    }
-}
+//**Digit Sum**
+//   const sumDigits = (number) => {
+//   const str = number.toString();
+//   const sum = 0;
+//
+//   for (const i = 0; i < str.length; i++) {
+//   }
+// }
 
-console.log(sumDigits(12345));
 
 //Pythagoras
+const calculateSide = (sideA, sideB) => {
+  return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2))
+}
+
+console.log(calculateSide(10, 10));
+
 
 
 //Sum Array
