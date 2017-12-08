@@ -56,6 +56,7 @@
 // console.log(checkPrime(11));
 // console.log(printPrimes(11));
 
+<<<<<<< HEAD
 // //Insert Dash
 // // split into string
 // //push to Array
@@ -74,3 +75,15 @@
 //
 //     }
 // }
+=======
+//Prime Numbers
+// const isPrime = num => {
+//     for(let i = 2, r = Math.sqrt(num); i <= r; i++)
+//         if(num % i === 0) return false;
+//     return num !== 1;
+// }
+//
+// console.log(isPrime());
+
+//Insert Dash
+>>>>>>> 681430570ea3d09336ad69c2e6f24c1c6d80e12e
