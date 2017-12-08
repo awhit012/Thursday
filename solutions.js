@@ -21,14 +21,14 @@
 //   }
 // }
 
-//Pythagoras
+// Pythagoras
 // const calculateSide = (sideA, sideB) => {
 //   return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2))
 // }
 //
 // console.log(calculateSide(10, 10));
 
-//Sum Array
+// Sum Array
 // const sumArray = (array) => {
 //   for (i = 0; i < array.length; i++) {
 //     array.reduce(function(prev, cur)) {
@@ -40,6 +40,12 @@
 // console.log(sumArray([1, 2, 3, 4, 5, 6]));
 
 //Prime Numbers
-
+// const isPrime = num => {
+//     for(let i = 2, r = Math.sqrt(num); i <= r; i++)
+//         if(num % i === 0) return false;
+//     return num !== 1;
+// }
+//
+// console.log(isPrime());
 
 //Insert Dash
