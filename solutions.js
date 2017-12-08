@@ -56,4 +56,21 @@
 // console.log(checkPrime(11));
 // console.log(printPrimes(11));
 
-//Insert Dash
+// //Insert Dash
+// // split into string
+// //push to Array
+// //compare 2 indexes for % 2 !== 0
+// //insert dash between
+// const numToString = (num) => {
+//
+// }
+//
+// const array = () => {
+//
+// }
+//
+// const oddOrNot = () => {
+//     if ( % 2 !== 0) {
+//
+//     }
+// }
